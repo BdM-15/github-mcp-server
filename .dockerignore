@@ -1,0 +1,38 @@
+# Ignore Git and VCS
+.git
+.gitignore
+
+# Ignore documentation and markdown
+*.md
+docs/
+
+# Ignore test files and folders
+test/
+tests/
+
+# Ignore local environment and config
+.env
+.env.*
+
+# Ignore build and cache artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.cache/
+
+# Ignore Go build artifacts
+/build/
+*.exe
+*.out
+*.test
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore node/npm artifacts (if any)
+node_modules/
